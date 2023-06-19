@@ -5,7 +5,9 @@
 package Negocio;
 
 import Data.DPaciente;
+import Data.DPaciente;
 import Data.DPersona;
+import Negocio.INegocio;
 import java.sql.SQLException;
 import java.text.ParseException;
 import java.util.ArrayList;
