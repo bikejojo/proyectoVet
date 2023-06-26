@@ -84,7 +84,7 @@ public class DVacunaAnt {
         
         public void editar() throws SQLException{
         int usId;
-        usId = us.getIdByEmail(Nombre);
+        usId = us.getIdByEmail(correo);
         if (usId!= -1) {
             String sql="UPDATE productos SET nombre = ?, fecha=?, "
                     + "fecha_P = ?,dosis = ?,"+

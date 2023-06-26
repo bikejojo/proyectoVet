@@ -69,7 +69,7 @@ public class DServicio {
 
     
     
-        public void insertar() throws SQLException{
+    public void insertar() throws SQLException{
         int pacId,perId ;
         pacId=us.getIdByEmail(correoPac) ;
         perId=us.getIdByEmail(correoPers);
@@ -101,8 +101,6 @@ public class DServicio {
         }
     }
 
-    private Date getDate(String fecha) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+
     
 }
